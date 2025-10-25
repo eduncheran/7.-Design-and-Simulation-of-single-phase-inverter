@@ -17,7 +17,7 @@ Another way is to open is through START icon of MATLAB Start ⇒ Simulink ⇒ Li
 4.	Similarly go to ELECTRICAL SOURCES ⇒ DC Voltage Source and add it to the model. Select Elements and select “SERIES RLC BRANCH” and add it to the model. Simulink do not perform simulation unless and until a measurement block is present in a system. Since we need to measure the input and output voltages and the load current. To add them select Measurement in SIMPOWER SYSTEMS and then add current measurement and voltage measurement blocks to the model. Oscilloscope is not included in SIMPOWER SYSTEMS and is present in the top most block of the left column that is SIMULINK ⇒ Sinks ⇒ Scope. Also add PWM generator from source. We can join various blocks by clicking on their edges and then drag the wire till the other connection terminal.
 5.	Construct the circuit by joining them together in the form as given below
  <img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/16d8db93-b3f6-4f1a-8222-9dcf96ae487f" />
-
+f
 6.	Double click on series RLC branch, Select the Branch type as R and set the values for R.
 7.	Double click on PWM generator, set the parameter as per the requirement.
   <img width="1117" height="473" alt="image" src="https://github.com/user-attachments/assets/30f18b06-c629-4258-bcc6-67bd8f1bc820" />
